@@ -3,8 +3,8 @@
  * Plugin Name:       Quick and Easy FAQs
  * Plugin URI:        https://wordpress.org/plugins/quick-and-easy-faqs/
  * Description:       A quick and easy way to add FAQs to your site.
- * Version:           1.3.12
- * Tested up to:      6.7.1
+ * Version:           1.3.13
+ * Tested up to:      6.8.1
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            InspiryThemes
@@ -22,6 +22,7 @@ if ( ! defined( 'WPINC' ) ) {
 
 define( 'QUICK_AND_EASY_FAQS_VERSION', qefaq_get_plugin_details() );
 define( 'QUICK_AND_EASY_FAQS_BASENAME', plugin_basename( __FILE__ ) );
+define( 'QAEF_TEXT_DOMAIN', 'quick-and-easy-faqs' );
 
 /**
  * Get plugin details safely
